@@ -3,16 +3,6 @@ import pickle
 
 glove_embedding = {}
 
-# f = open('./glove.840B.300d/glove.840B.300d.txt')
-# for line in f:
-#   values = line.split(' ')
-#   word = values[0]
-#   coefs = np.asarray(values[1:], dtype='float32')
-#   glove_embedding[word] = coefs
-# f.close()
-
-# pickle.dump(glove_embedding, open('./glove.840B.300d.pkl', 'wb'))
-
 with open(f'./glove.840B.300d/glove.840B.300d.txt', 'rb') as f:
   for l in f:
     values = l.decode().split(' ')
