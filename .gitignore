@@ -1,0 +1,7 @@
+data
+embeddings/glove.840B.300d
+embeddings/GoogleNews-vectors-negative300
+embeddings/paragram_300_sl999
+embeddings/wiki-news-300d-1M
+embeddings/glove.840B.300d.pkl
+runs
