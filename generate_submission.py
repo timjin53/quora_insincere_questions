@@ -31,6 +31,3 @@ test_data["prediction"] = result
 
 test_data[["qid", "prediction"]].to_csv('submission.csv',index=False)
 print("Submission file gerenated.")
-
-
-

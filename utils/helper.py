@@ -25,3 +25,4 @@ def generate_sentence_embedding(data, word_embedding):
   data['question_text_embedding'] = comment_embeddings
 
   return data
+  
